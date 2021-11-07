@@ -22,11 +22,11 @@ with open(file_to_load) as election_data:
     print(headers)
 
     # Using the with statement open the file as a text file.
-    with open(file_to_save, "w") as txt_file:
+    # with open(file_to_save, "w") as txt_file:
     
-        # Write some data to the file.
-        txt_file.write("Counties in the Election\n-------------------------\n")
-        txt_file.write("Arapahoe\nDenver\nJefferson")
+    #     # Write some data to the file.
+    #     txt_file.write("Counties in the Election\n-------------------------\n")
+    #     txt_file.write("Arapahoe\nDenver\nJefferson")
         
 
     # To do: perform analysis.

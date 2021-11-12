@@ -20,7 +20,7 @@ The purpose of this project is to use Python to automate certifying election res
 
 Below are the results provided by the python program that was written.
 
-Pic of election results
+![Election Results](https://github.com/mshideler/Election_Analysis/blob/main/Resources/ElectionResults.PNG)
 
 Here is the code used to read the data file with the votes:
 ```

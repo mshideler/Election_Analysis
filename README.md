@@ -2,7 +2,7 @@
 
 ## Overview of Election Audit
 
-The purpose of this project is to use Python to automate certifying election results for a congressional precint in Colorado.  Certifying this election using this method means this same method may be used to certify other elections for congressional, senatorial and local elections.  In addition to providing the breakdown of the votes by candidate, we need to provide a breakdown by county.
+The purpose of this project is to use Python to automate certifying election results for a congressional precinct in Colorado.  Certifying this election using this method means this same method may be used to certify other elections for congressional, senatorial and local elections.  In addition to providing the breakdown of the votes by candidate, we need to provide a breakdown by county.
 
 ## Election-Audit Results
 
@@ -178,3 +178,9 @@ with open(file_to_save, "w") as txt_file:
 ```
 
 ## Election-Audit Summary
+
+Considering the success of the python program certifying the election results, we propose the election commission use this script for all elections going forward.  If approved, the code would need to be modified slightly to account for the different types of elections.  Here are a couple of suggestions:
+
+1. Update the terminology in the code so it properly reflects where the votes are coming from, such as precincts, judicial districts, etc.  This information can be provided by the person running the program by adding prompts for input to the code.  Then, after adding a little more code, program could then update the variables and output with the correct terminology.
+
+2. Often times, elections include asking the people if they agree a provision should be passed, such as adding a new tax or a construction project should be approved.  The code would need to be modified to take into account yes/no votes.
